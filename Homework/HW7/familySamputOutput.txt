@@ -1,0 +1,23 @@
+% sample output for HW7 part 1. 
+
+?- mother(X,alyssa).
+X = wes ;
+X = barb.
+
+?- stepParent(X,Y).
+X = ted,
+Y = ann ;
+X = ted,
+Y = sylvia ;
+X = mary,
+Y = jessica ;
+X = mary,
+Y = david.
+
+
+?- ancestor(X, alyssa).
+X = wes ;
+X = barb ;
+X = don ;
+X = audrey ;
+false.
